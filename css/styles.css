@@ -1,0 +1,36 @@
+* {margin:0px; padding:0px; border:1px dotted;}
+body{	width:80%; 
+      margin-left:auto;
+      margin-right:auto;
+      background: grey;   
+      position:relative;
+      }
+div {	margin-top:10px;
+	margin-bottom:10px;
+	background: white;}
+#header{background-image:url(../img/system/pattern-07.jpg);}
+#header div img {border-radius:50px;}
+#header div {	display: inline-block;
+		margin-left:5px;
+		margin-right:5px;
+		vertical-align: middle;
+}
+.head-name {width:80%;
+	    text-align: center;
+	    background-color: transparent;
+	    font-size:25px;
+}
+#menu{	text-align: center;
+	background-image:url(../img/system/pattern-07.jpg);
+}
+.menu-btn{	display: inline-block;
+		margin:auto;
+		height:30px;
+		line-height:30px; /*Для центровки текста по вертикали*/
+		background:#93FFB7;
+		border-radius:5px;
+		padding:0px 10px;
+}
+#content{}
+#footer{}
+  
