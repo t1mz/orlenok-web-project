@@ -1,36 +1,110 @@
-* {margin:0px; padding:0px; border:1px dotted;}
-body{	width:80%; 
-      margin-left:auto;
-      margin-right:auto;
-      background: grey;   
-      position:relative;
-      }
-div {	margin-top:10px;
-	margin-bottom:10px;
-	background: white;}
-#header{background-image:url(../img/system/pattern-07.jpg);}
-#header div img {border-radius:50px;}
-#header div {	display: inline-block;
-		margin-left:5px;
-		margin-right:5px;
-		vertical-align: middle;
+* {/* Применяется ко всем объектам */
+    margin:0px; 
+    padding:0px; 
+    /*border:1px dotted;*/
 }
-.head-name {width:80%;
-	    text-align: center;
-	    background-color: transparent;
-	    font-size:25px;
+body{	
+    width:80%; 
+    margin-left:auto;
+    margin-right:auto;
+    background: url(../img/system/bg.jpg);   
+    position:relative;
 }
-#menu{	text-align: center;
-	background-image:url(../img/system/pattern-07.jpg);
+div {	
+    margin-top:10px;
+    margin-bottom:10px;
+    /*background:white;*/
 }
-.menu-btn{	display: inline-block;
-		margin:auto;
-		height:30px;
-		line-height:30px; /*Для центровки текста по вертикали*/
-		background:#93FFB7;
-		border-radius:5px;
-		padding:0px 10px;
+#header{
+   background-image:url(../img/system/background-placeholder.jpg);
 }
-#content{}
-#footer{}
-  
+#header div img {
+    border-radius:50px;
+}
+#header div {	
+    display: inline-block;
+    margin-left:10px;
+    margin-right:10px;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.head-name {
+    width:80%;
+    text-align: center;
+    background-color: transparent;
+    font-size:25px;
+    position:relative;
+    left:1%;
+}
+#menu {	
+    text-align: center;
+    background-image:url(../img/system/background-placeholder.jpg);
+}
+.menu-btn {	
+    display: inline-block;
+    height:30px;
+    line-height:30px; /*Для центровки текста по вертикали*/
+    background:#93FFB7;
+    border-radius:5px;
+    padding:0px 10px;
+}
+.menu-btn:hover {	
+    display: inline-block;
+    height:30px;
+    line-height:30px; /*Для центровки текста по вертикали*/
+    background:#70C38C;
+    border-radius:5px;
+    padding:0px 10px;
+}
+#content{
+   background-image:url(../img/system/background-placeholder.jpg);
+}
+#content H1{
+    text-align:center;
+}
+#content H2{
+    text-align:center;
+}
+.post-cont{
+
+    padding-left:10px;
+    padding-right:10px;
+}
+.post-text{
+    text-align:justify;
+}
+.post-img-l{
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+.post-img-r{
+    float:right;
+    margin-left:10px;
+    margin-right:10px;
+}
+.post-img-c{
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+}
+.post{
+    overflow:auto;
+}
+.return-btn{
+  display:block;
+  width:20%;
+    margin:10px auto;
+    padding:5px;
+}
+#footer{
+  background-image:url(../img/system/background-placeholder.jpg);
+}
+#footer div {
+    background-color: transparent;
+     margin:5px;
+}
+#footer p {
+    text-align:right;
+    padding:5px;
+}
