@@ -1,9 +1,9 @@
 * {/* Применяется ко всем объектам */
     margin:0px; 
     padding:0px; 
-    /*border:1px dotted;*/
+    /* border:1px dotted; */
 }
-body{	
+body {	
     width:80%; 
     margin-left:auto;
     margin-right:auto;
@@ -13,30 +13,31 @@ body{
 div {	
     margin-top:10px;
     margin-bottom:10px;
-    /*background:white;*/
 }
 #header{
-   background-image:url(../img/system/background-placeholder.jpg);
+    border-radius:5px;
+    background-image:url(../img/system/background-placeholder.jpg);
+    overflow:auto;
 }
-#header div img {
-    border-radius:50px;
-}
-#header div {	
-    display: inline-block;
+#header div {border:1px dotted transparent;}
+.head-cont{
     margin-left:10px;
     margin-right:10px;
-    vertical-align: middle;
-    background-color: transparent;
+}
+#header img {
+    border-radius:50px;
+}
+.logo {
+    float:left;
 }
 .head-name {
-    width:80%;
-    text-align: center;
-    background-color: transparent;
+    padding:10px;
+    text-align:center;
     font-size:25px;
-    position:relative;
-    left:1%;
+    vertical-align:middle
 }
 #menu {	
+    border-radius:5px;
     text-align: center;
     background-image:url(../img/system/background-placeholder.jpg);
     padding:5px;
@@ -44,7 +45,7 @@ div {
 .menu-btn {	
     display: inline-block;
     height:30px;
-    line-height:30px; /*Для центровки текста по вертикали*/
+    line-height:30px;
     background:#93FFB7;
     border-radius:5px;
     padding:0px 10px;
@@ -52,59 +53,62 @@ div {
 .menu-btn:hover {	
     display: inline-block;
     height:30px;
-    line-height:30px; /*Для центровки текста по вертикали*/
+    line-height:30px;
     background:#70C38C;
     border-radius:5px;
     padding:0px 10px;
 }
-#content{
-   background-image:url(../img/system/background-placeholder.jpg);
+#content {
+    border-radius:5px;
+    background-image:url(../img/system/background-placeholder.jpg);
 }
-#content H1{
+#content H1 {
     text-align:center;
+    padding:10px;
 }
-#content H2{
-    text-align:center;
-}
-.post-cont{
-
-    padding-left:10px;
-    padding-right:10px;
-}
-.post-text{
-    text-align:justify;
-}
-.post-img-l{
-    float:left;
-    margin-left:10px;
-    margin-right:10px;
-}
-.post-img-r{
-    float:right;
-    margin-left:10px;
-    margin-right:10px;
-}
-.post-img-c{
-    display:block; 
-    width:100%;
-    vertical-align:middle; 
+#content H2 {
     text-align:center;
 }
 .post{
     overflow:auto;
 }
-.return-btn{
-  text-align:center;
-  padding:10px;
+.post-cont {
+    margin-top:0px;
+    padding-left:10px;
+    padding-right:10px;
 }
-#footer{
-  background-image:url(../img/system/background-placeholder.jpg);
+.post-text {
+    text-align:justify;
+    font-size:110%;
+}
+.post-img-l {
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+.post-img-r {
+    float:right;
+    margin-left:10px;
+    margin-right:10px;
+}
+.post-img-c {
+    display:block; 
+    width:100%;
+    vertical-align:middle; 
+    text-align:center;
+}
+.return-btn {
+    text-align:center;
+    padding-bottom:10px;
+}
+#footer {
+    border-radius:5px;
+    background-image:url(../img/system/background-placeholder.jpg);
 }
 #footer div {
-    background-color: transparent;
-     margin:5px;
+    margin:5px;
 }
 #footer p {
     text-align:right;
-    padding:5px;
+    padding:10px;
 }
