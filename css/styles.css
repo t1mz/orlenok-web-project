@@ -13,6 +13,7 @@ body{
 div {	
     margin-top:10px;
     margin-bottom:10px;
+    /*background:white;*/
 }
 #header{
    background-image:url(../img/system/background-placeholder.jpg);
@@ -38,6 +39,7 @@ div {
 #menu {	
     text-align: center;
     background-image:url(../img/system/background-placeholder.jpg);
+    padding:5px;
 }
 .menu-btn {	
     display: inline-block;
@@ -83,18 +85,17 @@ div {
     margin-right:10px;
 }
 .post-img-c{
-    margin-left:auto;
-    margin-right:auto;
-    width:65%;
+    display:block; 
+    width:100%;
+    vertical-align:middle; 
+    text-align:center;
 }
 .post{
     overflow:auto;
 }
 .return-btn{
-  display:block;
-  width:20%;
-    margin:10px auto;
-    padding:5px;
+  text-align:center;
+  padding:10px;
 }
 #footer{
   background-image:url(../img/system/background-placeholder.jpg);
