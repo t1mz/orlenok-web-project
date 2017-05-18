@@ -7,17 +7,24 @@ body {
     width:80%; 
     margin-left:auto;
     margin-right:auto;
-    background: url(../img/system/bg.jpg);   
+    background:#86E4BC;
     position:relative;
 }
 div {	
     margin-top:10px;
     margin-bottom:10px;
 }
+@font-face {
+  font-family: "Arvo";
+  src: url(../fonts/Arvo-Regular_201.ttf) format("truetype");
+}
 #header{
     border-radius:5px;
-    background-image:url(../img/system/background-placeholder.jpg);
+    background:url(../img/system/bg-m.jpg);
     overflow:auto;
+    color:#ECE69D;
+    text-shadow: 2px 2px 2px black;
+    font-family:"Arvo";
 }
 #header div {border:1px dotted transparent;}
 .head-cont{
@@ -39,28 +46,36 @@ div {
 #menu {	
     border-radius:5px;
     text-align: center;
-    background-image:url(../img/system/background-placeholder.jpg);
+    background:url(../img/system/bg-m.jpg);
+    background-position:0px -136px;
     padding:5px;
 }
 .menu-btn {	
     display: inline-block;
     height:30px;
     line-height:30px;
-    background:#93FFB7;
+    background:transparent;
     border-radius:5px;
     padding:0px 10px;
+    text-decoration:none;
+    color:#ECE69D;
+    text-shadow: 2px 2px 2px black;
+    font-size:120%
 }
 .menu-btn:hover {	
     display: inline-block;
     height:30px;
     line-height:30px;
-    background:#70C38C;
+    background:#ECE69D;
     border-radius:5px;
     padding:0px 10px;
+    text-decoration:none;
+    color:#ECE69D;
+    text-shadow: 2px 2px 2px black;
 }
 #content {
     border-radius:5px;
-    background-image:url(../img/system/background-placeholder.jpg);
+    background:#66CDAA;
 }
 #content H1 {
     text-align:center;
@@ -103,7 +118,7 @@ div {
 }
 #footer {
     border-radius:5px;
-    background-image:url(../img/system/background-placeholder.jpg);
+    background:#66CDAA;
 }
 #footer div {
     margin:5px;
