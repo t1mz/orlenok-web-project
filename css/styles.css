@@ -18,6 +18,10 @@ div {
   font-family: "Arvo";
   src: url(../fonts/Arvo-Regular_201.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Light.ttf) format("truetype");
+}
 #header{
     border-radius:5px;
     background:url(../img/system/bg-m.jpg);
@@ -28,14 +32,11 @@ div {
 }
 #header div {border:1px dotted transparent;}
 .head-cont{
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:15px;
+    margin-right:15px;
 }
 #header img {
     border-radius:50px;
-}
-.logo {
-    float:left;
 }
 .head-name {
     padding:10px;
@@ -59,18 +60,11 @@ div {
     padding:0px 10px;
     text-decoration:none;
     color:#ECE69D;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 3px 3px 3px black;
     font-size:120%
 }
 .menu-btn:hover {	
-    display: inline-block;
-    height:30px;
-    line-height:30px;
     background:#ECE69D;
-    border-radius:5px;
-    padding:0px 10px;
-    text-decoration:none;
-    color:#ECE69D;
     text-shadow: 2px 2px 2px black;
 }
 #content {
@@ -79,7 +73,7 @@ div {
 }
 #content H1 {
     text-align:center;
-    padding:10px;
+    padding:10px 15px;
 }
 #content H2 {
     text-align:center;
@@ -89,22 +83,23 @@ div {
 }
 .post-cont {
     margin-top:0px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:15px;
+    padding-right:15px;
 }
 .post-text {
     text-align:justify;
-    font-size:110%;
+    font-size:18px;
+    font-family: "Roboto";
 }
 .post-img-l {
     float:left;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:15px;
+    margin-right:15px;
 }
 .post-img-r {
     float:right;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:15px;
+    margin-right:15px;
 }
 .post-img-c {
     display:block; 
@@ -125,5 +120,5 @@ div {
 }
 #footer p {
     text-align:right;
-    padding:10px;
+    padding:10px 15px;
 }

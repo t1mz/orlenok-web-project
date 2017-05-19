@@ -1,6 +1,8 @@
 <HTML>
 <HEAD>
 <link rel="stylesheet" type="text/css" media="all" href="../css/styles.css">
+<link rel="stylesheet" type="text/css" media="all" href="../css/scripts.css">
+<script src="../css/scripts.js"></script>
 <TITLE>Конкурсный сайт</TITLE>
 </HEAD>
 <BODY>
@@ -19,19 +21,37 @@
     <a href='connect.html' class="menu-btn">Обратная связь</a>
 </div>
 <div id="content">
-  <H1>Оглавление</H1>
+  <H1>Страница 3</H1>
   <hr color="black">
-  <div class="post">
-    <div class="post-img-l">
-    <img src="../img/system/vt-placeholder.jpg">
-    </div>
-    <div class="post-cont">
-      <h2>Подзаголовок</h2>
-      <div class="post-text">
-      <p>Cъешь ещё этих мягких французских булок, да выпей чаю. Cъешь ещё этих мягких французских булок, да выпей чаю. Cъешь ещё этих мягких французских булок, да выпей чаю. Cъешь ещё этих мягких французских булок, да выпей чаю. Cъешь ещё этих мягких французских булок, да выпей чаю. Cъешь ещё этих мягких французских булок, да выпей чаю. Cъешь ещё этих мягких французских булок, да выпей чаю. </p>
-      </div>
-    </div>
+<div class="dots">
+  <span class="dot" onclick="curSlide(1)"></span>
+  <span class="dot" onclick="curSlide(2)"></span>
+  <span class="dot" onclick="curSlide(3)"></span>
+</div> 
+  <div class="slideshow">
+  <div class="slides fade">
+    <img src="../img/content/img1.jpg" style="width:100%">
+    <div class="text">Подпись к картинке 1</div>
   </div>
+
+  <div class="slides fade">
+    <img src="../img/content/img2.jpg" style="width:100%">
+    <div class="text">Подпись к картинке 2</div>
+  </div>
+
+  <div class="slides fade">
+    <img src="../img/content/img3.jpg" style="width:100%">
+    <div class="text">Подпись к картинке 3</div>
+  </div>
+
+  <a class="prev" onclick="addSlides(-1)">&#10094;</a>
+  <a class="next" onclick="addSlides(1)">&#10095;</a>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+</script>
+<br>
 </div>
 <div id="footer">
   <div>
