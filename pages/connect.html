@@ -1,45 +1,61 @@
+<!DOCTYPE HTML>
 <HTML>
 <HEAD>
+<meta charset = "UTF-8" />
 <link rel="stylesheet" type="text/css" media="all" href="../css/styles.css">
 <TITLE>Конкурсный сайт</TITLE>
 </HEAD>
 <BODY>
 <a name="top"></a>
-<div id="header" >
+<header>
   <div class="head-cont">
   <div class="head-name"><p>Вопросы энергоэффективности и энергосбережения<br>при создании и использовании цифровых устройств.</p></div>
   </div>
-</div>
-<div id="menu">
-    <a href='../index.html' class="menu-btn">Главная страница</a>
-    <a href='chapters.html' class="menu-btn">Оглавление</a>
-    <a href='page1.html' class="menu-btn">Страница 1</a>
-    <a href='page2.html' class="menu-btn">Страница 2</a>
-    <a href='page3.html' class="menu-btn">Страница 3</a>
-    <a href='connect.html' class="menu-btn">Обратная связь</a>
-</div>
-<div id="content">
+</header>
+<nav>
+    <a href='../index.html'>Главная страница</a>
+    <a href='chapters.html'>Оглавление</a>
+    <a href='page1.html'>Страница 1</a>
+    <a href='page2.html'>Страница 2</a>
+    <a href='page3.html'>Страница 3</a>
+    <a href='connect.html'>Обратная связь</a>
+</nav>
+<main>
   <H1>Обратная связь</H1>
   <hr color="black">
    <div class="post">
     <div class="post-img-r"> 
     <img src="../img/system/vt-placeholder.jpg">
     </div>
-    <div class="post-cont">
-      <div class="post-text" style="text-align:center;">
-<p>С автором можно связаться по почтовому адресу:<a href='mailto:kolosova.@yandex.ru'>kolosova.@yandex.ru </a> </p>
+    <article>
+      <div style="text-align:center;">
+<p>С автором можно связаться по почтовому адресу: <a href='mailto:kolosova.@yandex.ru'>kolosova.@yandex.ru </a> 
+<br><br>
+Или отправить сообщение заполнив форму:</p>
+<form action="http://www.chauzov-home-server.ru/php/timz.php" method="POST">
+<fieldset>
+<legend>Форма для отправки</legend>
+<label >Ваше Имя <br><input type="text" name="name" size="25" required></label><br>
+<label >Email <br><input type="email" name="email" size="25" required></label><br>
+Сообщение <br><textarea name="text" rows="5" cols="60" required></textarea>
+<br>
+<input type="submit" value="Отправить" style="padding: 5px; border-radius:10px; margin-bottom:5px;">
+<input type="reset" value="Сброс" style="padding: 5px; border-radius:10px; margin-bottom:5px;">
+</fieldset>
+</form>
+
       </div>
-    </div>
+    </article>
   </div>
   <hr color="black">
  <div class="return-btn">
     <a href="#top" >Вернуться наверх</a>
   </div>
-</div>
-<div id="footer">
+</main>
+<footer>
   <div>
     <p>Информация о сайте.</p>
   </div>
-</div>
+</footer>
 </BODY>
 </HTML>

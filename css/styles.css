@@ -7,7 +7,7 @@ body {
     width:80%; 
     margin-left:auto;
     margin-right:auto;
-    background:#cdf3ac;
+    background:#E2F0BD;
     position:relative;
 }
 div {	
@@ -22,21 +22,34 @@ div {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Light.ttf) format("truetype");
 }
+/* Общие */
+header,nav,main,footer {
+box-shadow: 3px 3px 5px #888888;
+margin-top:10px;
+border-radius:5px;
+}
+header,nav {
+background:url(../img/system/bg.jpg);
+}
+main,footer {
+    background:#BEDEB4;
+}
 
-#header{
+/* Шапка сайта */
+header{
     border-radius:5px;
-    background:url(../img/system/bg.jpg);
     overflow:auto;
-    color:#DEE67F;
-    text-shadow: 2px 2px 2px black;
+    color:#BEDEB4;
+    text-shadow: 2px 2px 0px black,
+		 -1px -1px 2px black;
     font-family: 'Philosopher-Regular', sans-serif;
 }
-#header div {border:1px dotted transparent;}
+header div {border:1px dotted transparent;}
 .head-cont{
     margin-left:15px;
     margin-right:15px;
 }
-#header img {
+header img {
     border-radius:50px;
 }
 .head-name {
@@ -45,14 +58,14 @@ div {
     font-size:35px;
     vertical-align:middle
 }
-#menu {	
-    border-radius:5px;
+
+/* Меню сайта */
+nav {
     text-align: center;
-    background:url(../img/system/bg.jpg);
     background-position:0px -136px;
     padding:5px;
 }
-.menu-btn {	
+nav a {	
     display: inline-block;
     height:30px;
     line-height:30px;
@@ -60,35 +73,36 @@ div {
     border-radius:5px;
     padding:0px 10px;
     text-decoration:none;
-    color:#DEE67F;
+    color:#BEDEB4;
     text-shadow: 3px 3px 3px black;
     font-size:120%
 }
-.menu-btn:hover {	
-    background:#ECE69D;
+nav a:hover {	
+    background:#E2F0BD;
     text-shadow: 2px 2px 2px black;
 }
-#content {
-    border-radius:5px;
-    background:#DEE67F;
-}
-#content H1 {
+
+/* Контент сайта*/
+main H1 {
     text-align:center;
     padding:10px 15px;
     font-size:22px;
 }
-#content H2 {
+main p {
+    text-indent: 30px;
+}
+main H2 {
     text-align:center;
 }
 .post{
     overflow:auto;
 }
-.post-cont {
+article {
     margin-top:0px;
     padding-left:15px;
     padding-right:15px;
 }
-.post-text {
+article div{
     text-align:justify;
     font-size:18px;
     font-family: "Roboto";
@@ -96,7 +110,7 @@ div {
 .post-img-l {
     float:left;
     margin-left:15px;
-    margin-right:15px;
+    margin-right:30px;
 }
 .post-img-r {
     float:right;
@@ -109,29 +123,31 @@ div {
     vertical-align:middle; 
     text-align:center;
 }
-#content ol {
+.post img {
+	box-shadow: 3px 3px 5px #888888; /* Тень объекта */
+}
+article ol {
          padding-left:30%;
          font-style:italic;
          }
 ul li {margin-left:20px;
          }
-.post-text a {
+article a {
            font-size:20px;
            font-weight:bold;
            font-style:normal;
            }
+
 .return-btn {
     text-align:center;
     padding-bottom:10px;
 }
-#footer {
-    border-radius:5px;
-    background:#DEE67F;
-}
-#footer div {
+
+/* Низ сайта */
+footer div {
     margin:5px;
 }
-#footer p {
+footer p {
     text-align:right;
     padding:10px 15px;
 }
