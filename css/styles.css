@@ -1,7 +1,6 @@
-* {/* Применяется ко всем объектам */
+* {
     margin:0px; 
-    padding:0px; 
-    /* border:1px dotted; */
+    padding:0px; /
 }
 body {	
     width:80%; 
@@ -22,7 +21,7 @@ div {
   font-family: "Roboto";
   src: url(../fonts/Roboto-Light.ttf) format("truetype");
 }
-/* Общие */
+
 header,nav,main,footer {
 box-shadow: 3px 3px 5px #888888;
 margin-top:10px;
@@ -35,7 +34,7 @@ main,footer {
     background:#BEDEB4;
 }
 
-/* Шапка сайта */
+
 header{
     border-radius:5px;
     overflow:auto;
@@ -59,7 +58,7 @@ header img {
     vertical-align:middle
 }
 
-/* Меню сайта */
+
 nav {
     text-align: center;
     background-position:0px -136px;
@@ -82,7 +81,7 @@ nav a:hover {
     text-shadow: 2px 2px 2px black;
 }
 
-/* Контент сайта*/
+
 main H1 {
     text-align:center;
     padding:10px 15px;
@@ -124,7 +123,7 @@ article div{
     text-align:center;
 }
 .post img {
-	box-shadow: 3px 3px 5px #888888; /* Тень объекта */
+	box-shadow: 3px 3px 5px #888888;
 }
 article ol {
          padding-left:30%;
@@ -143,7 +142,6 @@ article a {
     padding-bottom:10px;
 }
 
-/* Низ сайта */
 footer div {
     margin:5px;
 }
