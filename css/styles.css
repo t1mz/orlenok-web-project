@@ -4,23 +4,23 @@
 }
 @font-face {
   font-family: "Philosopher-Regular";
-  src: url(../fonts/Philosopher-Regular.ttf) format("truetype");
+  src: url(/fonts/Philosopher-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto-Light.ttf) format("truetype");
+  src: url(/fonts/Roboto-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "Roboto-Bold";
-  src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+  src: url(/fonts/Roboto-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "Roboto-BoldItalic";
-  src: url(../fonts/Roboto-BoldItalic.ttf) format("truetype");
+  src: url(/fonts/Roboto-BoldItalic.ttf) format("truetype");
 }
 @font-face {
   font-family: "Comfortaa";
-  src: url(../fonts/Comfortaa-Bold.ttf) format("truetype");
+  src: url(/fonts/Comfortaa-Bold.ttf) format("truetype");
 }
 
 body {	
