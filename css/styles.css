@@ -117,6 +117,7 @@ main H1 {
 }
 main p {
     text-indent: 30px;
+    margin-top: 10px;
 }
 .art-nav {
 	text-align:left; margin:0px 10px;
