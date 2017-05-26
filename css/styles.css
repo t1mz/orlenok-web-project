@@ -118,11 +118,12 @@ main H1 {
 main p {
     text-indent: 30px;
 }
-.art-nav p {
-	text-align:left; margin:10px 30px 0px 0px;
+.art-nav {
+	text-align:left; margin:0px 10px;
+    padding:10px;
 }
 
-.art-nav a {
+.art-nav a,li a {
     text-decoration:none;
     color:black;
     text-shadow: 3px 3px 3px #888888;
@@ -130,7 +131,7 @@ main p {
     font-family: "Comfortaa";
     letter-spacing: -1px;
 	}
-.art-nav a:hover{
+.art-nav a:hover,li a:hover{
 	text-shadow: 3px 3px 1px white;	
 	background:rgba(0, 0, 0, 0.2);
 	border-radius:10px;
@@ -186,11 +187,6 @@ article a {
            font-weight:bold;
            font-style:normal;
            }
-
-.return-btn {
-    text-align:center;
-    padding-bottom:10px;
-}
 
 footer div {
     margin:5px;
