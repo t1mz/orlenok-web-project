@@ -103,6 +103,7 @@ nav a {
     font-size:115%;
     font-family: "Comfortaa";
     letter-spacing: -0.5px;
+    -webkit-transition: background 0.3s;
 }
 nav a:hover {	
     background:#E2F0BD;
@@ -134,12 +135,14 @@ main p {
 }
 
 .art-nav a,li a {
+    padding:0 4px 0 1px;
     text-decoration:none;
     color:black;
     text-shadow: 3px 3px 3px #888888;
     font-size:90%;
     font-family: "Comfortaa";
     letter-spacing: -1px;
+    -webkit-transition: background 0.3s;
 	}
 .art-nav a:hover,li a:hover{
 	text-shadow: 3px 3px 1px white;	
