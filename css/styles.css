@@ -37,6 +37,11 @@ div {
 hr {
 	border: 1px solid #888888;
 }
+br {
+    display: block;
+    margin: 10px 0;
+    content: " ";
+}
 
 header,nav,main,footer {
 	box-shadow: 3px 3px 5px #888888;
