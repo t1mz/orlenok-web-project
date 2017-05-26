@@ -1,6 +1,6 @@
 * {
     margin:0px; 
-    padding:0px;
+    padding:0px; /
 }
 @font-face {
   font-family: "Philosopher-Regular";
@@ -118,7 +118,11 @@ main H1 {
 main p {
     text-indent: 30px;
 }
-main a {
+.art-nav p {
+	text-align:left; margin:10px 30px 0px 0px;
+}
+
+art-nav a {
     text-decoration:none;
     color:black;
     text-shadow: 3px 3px 3px #888888;
