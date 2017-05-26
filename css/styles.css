@@ -118,6 +118,19 @@ main H1 {
 main p {
     text-indent: 30px;
 }
+main a {
+    text-decoration:none;
+    color:black;
+    text-shadow: 3px 3px 3px #888888;
+    font-size:90%;
+    font-family: "Comfortaa";
+    letter-spacing: -1px;
+	}
+main a:hover{
+	text-shadow: 3px 3px 1px white;	
+	background:rgba(0, 0, 0, 0.2);
+	border-radius:10px;
+	}
 main b,H2 {
 	text-shadow: 2px 2px 3px #888888;
 }
