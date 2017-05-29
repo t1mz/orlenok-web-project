@@ -34,6 +34,7 @@ div {
     margin-top:10px;
     margin-bottom:10px;
 }
+
 hr {
 	border: 1px solid #888888;
 }
@@ -70,7 +71,6 @@ header{
 		2px 2px 1px black;
     font-family: 'Philosopher-Regular', sans-serif;
 }
-header div {border:1px dotted transparent;}
 .head-cont{
     margin-left:15px;
     margin-right:15px;
@@ -128,6 +128,10 @@ main H1 {
 main p {
     text-indent: 30px;
     margin-top: 10px;
+}
+.aa {
+    font-family: "Roboto-Bold";
+    color:black;
 }
 .art-nav {
 	text-align:left; margin:0px 10px;
