@@ -122,7 +122,7 @@ main H1 {
 }
 main p {
     text-indent: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 main br {
     display: block;
@@ -171,7 +171,7 @@ main H2 {
     font-family: "Roboto-BoldItalic";
     font-size: 22px;
  }
-H4 {margin-top: 15px;}
+H4 {margin-top: 5px;}
 .post{
     overflow:auto;
 }
@@ -206,7 +206,7 @@ article div{
 }
 article ol {
          font-style:italic;
-         margin-left:10px;}
+         margin-left:20px;}
 ul li {margin-left:20px;
          }
 article a {
