@@ -62,7 +62,7 @@
             </ul>
             </li>
      
-         <li  style="padding-top:10px"><H4>Раздел 2 - микроархитектуры и процессоры</H4>
+         <li  style="padding-top:10px"><h3>Раздел 2 - микроархитектуры и процессоры</h3>
             <ul>     
     <li><a  href="/pages/intel-cpu.html">Энергоэффективные микроархитектуры  Intel</a>
      <li><a  href="/pages/amd-cpu.html">Polaris — следующая графическая архитектура AMD Radeon</a>

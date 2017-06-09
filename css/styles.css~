@@ -171,7 +171,6 @@ main H2 {
     font-family: "Roboto-BoldItalic";
     font-size: 22px;
  }
-H4 {margin-top: 15px;}
 .post{
     overflow:auto;
 }
@@ -214,8 +213,6 @@ article a {
            font-weight:bold;
            font-style:normal;
            }
-
-article hr {margin-top:5px;}         
 
 footer div {
     margin:5px;
