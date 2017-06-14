@@ -49,7 +49,7 @@ header,nav,main,footer {
 	border-radius:5px;
 }
 header,nav {
-	background:url(../img/system/bg.jpg);
+	background:url(/img/system/bg.jpg);
 }
 main,footer {
     background:#BEDEB4;
@@ -203,6 +203,7 @@ article div{
 }
 .post img {
 	box-shadow: 3px 3px 5px #888888;
+	border-radius:5px;
 }
 article ol {
          font-style:italic;
