@@ -79,7 +79,6 @@ header img {
     font-size:35px;
     vertical-align:middle
 }
-a {background:inherit;}
 nav {
     text-align: center;
     background-position:0px -136px;
@@ -225,3 +224,4 @@ footer p {
     text-align:right;
     padding:10px 15px;
 }
+footer a {background:inherit;}
