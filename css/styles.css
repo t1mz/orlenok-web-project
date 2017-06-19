@@ -224,4 +224,6 @@ footer p {
     text-align:right;
     padding:10px 15px;
 }
-footer a {background:inherit;}
+footer a {
+	color:black;	
+	background:inherit;}
